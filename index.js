@@ -9,7 +9,7 @@ bot.on("ready", async () => {
 
 bot.on('guildMemberAdd', member => {
   member.createDM().then(channel => {
-    return channel.send("Bienvenue sur notre serveur " + member.displayName + "N'hésites pas à te présenter dans le channel 'Présentation' pour obtenir le statut de Minor");
+    return channel.send("Bienvenue sur notre serveur " + member.displayName + "N'hésites pas à te présenter dans le channel 'Présentation' pour obtenir le statut de Minor et accéder à tous les salons");
   }).catch(console.error)
 });
 
