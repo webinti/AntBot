@@ -16,7 +16,37 @@ bot.on('guildMemberAdd', member => {
 
 bot.on('message', function (message) {
   if (message.content === '!crematogaster') {
-    message.channel.send('https://formicants.com/fr/crematogaster/15-138-crematogaster-scutellaris.html')
+    message.channel.send('https://formicants.com/fr/17-crematogaster')
+  }
+})
+
+bot.on('message', function (message) {
+  if (message.content === '!messor') {
+    message.channel.send('https://formicants.com/fr/16-messor')
+  }
+})
+
+bot.on('message', function (message) {
+  if (message.content === '!camponotus') {
+    message.channel.send('https://formicants.com/fr/18-camponotus')
+  }
+})
+
+bot.on('message', function (message) {
+  if (message.content === '!solenopsis') {
+    message.channel.send('https://formicants.com/fr/19-solenopsis')
+  }
+})
+
+bot.on('message', function (message) {
+  if (message.content === '!solenopsis') {
+    message.channel.send('https://formicants.com/fr/20-lasius')
+  }
+})
+
+bot.on('message', function (message) {
+  if (message.content === '!solenopsis') {
+    message.channel.send('https://formicants.com/fr/21-pheidole')
   }
 })
 
