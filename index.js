@@ -16,17 +16,9 @@ bot.on('guildMemberAdd', member => {
 
 bot.on('message', function (message) {
   if (message.content === '!crematogaster') {
-    bot.createDM().then(function(channel) {
-      channel.send('https://formicants.com/fr/17-crematogaster')
-    })
-  }
-})
-
-/*bot.on('message', function (message) {
-  if (message.content === '!crematogaster') {
     message.reply('https://formicants.com/fr/17-crematogaster')
   }
-})*/
+})
 
 bot.on('message', function (message) {
   if (message.content === '!messor') {
