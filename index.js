@@ -16,37 +16,37 @@ bot.on('guildMemberAdd', member => {
 
 bot.on('message', function (message) {
   if (message.content === '!crematogaster') {
-    message.channel.send('https://formicants.com/fr/17-crematogaster')
+    message.reply('https://formicants.com/fr/17-crematogaster')
   }
 })
 
 bot.on('message', function (message) {
   if (message.content === '!messor') {
-    message.channel.send('https://formicants.com/fr/16-messor')
+    message.reply('https://formicants.com/fr/16-messor')
   }
 })
 
 bot.on('message', function (message) {
   if (message.content === '!camponotus') {
-    message.channel.send('https://formicants.com/fr/18-camponotus')
+    message.reply('https://formicants.com/fr/18-camponotus')
   }
 })
 
 bot.on('message', function (message) {
   if (message.content === '!solenopsis') {
-    message.channel.send('https://formicants.com/fr/19-solenopsis')
+    message.reply('https://formicants.com/fr/19-solenopsis')
   }
 })
 
 bot.on('message', function (message) {
-  if (message.content === '!solenopsis') {
-    message.channel.send('https://formicants.com/fr/20-lasius')
+  if (message.content === '!lasius') {
+    message.reply('https://formicants.com/fr/20-lasius')
   }
 })
 
 bot.on('message', function (message) {
-  if (message.content === '!solenopsis') {
-    message.channel.send('https://formicants.com/fr/21-pheidole')
+  if (message.content === '!pheidole') {
+    message.reply('https://formicants.com/fr/21-pheidole')
   }
 })
 
