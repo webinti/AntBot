@@ -16,7 +16,7 @@ bot.on('guildMemberAdd', member => {
 
 bot.on('message', function (message) {
   if (message.content === '!crematogaster') {
-    member.createDM().then(function( channel) {
+    member.createDM().then(function(channel) {
       channel.send('https://formicants.com/fr/17-crematogaster')
     })
   }
