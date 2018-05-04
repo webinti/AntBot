@@ -14,9 +14,10 @@ bot.on('guildMemberAdd', member => {
   }).catch(console.error)
 });
 
-bot.on('message' function (message) {
+bot.on('message', function (message) {
   if (message.content === '!crematogaster') {
     message.channel.send('https://formicants.com/fr/crematogaster/15-138-crematogaster-scutellaris.html')
+  }
 })
 
 
