@@ -16,7 +16,7 @@ bot.on('guildMemberAdd', member => {
 
 bot.on('message', function (message) {
   if (message.content === '!bonjour') {
-    message.reply('Salut' . member.displayName . 'tu vas bien ?')
+    message.reply("Salut" + member.displayName + ", tu vas bien ?")
   }
 })
 
