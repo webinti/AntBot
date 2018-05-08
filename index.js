@@ -21,6 +21,12 @@ bot.on('message', function (message) {
 })
 
 bot.on('message', function (message) {
+  if (message.content === '!formicants') {
+    message.reply("https://formicants.com")
+  }
+})
+
+bot.on('message', function (message) {
   if (message.content === '!crematogaster') {
     message.reply('https://formicants.com/17-crematogaster')
   }
@@ -55,6 +61,25 @@ bot.on('message', function (message) {
     message.reply('https://formicants.com/21-pheidole')
   }
 })
+
+bot.on('message', function (message) {
+  if (message.content === '!help') {
+    var help_embed = new Discord.RichEmbed()
+    .setColor("F05A66")
+    .setTitle("Voici les commandes possibles !")
+    .setDescription("Je suis un Bot conçu uniquement pour la Myrmécologie.")
+    .addField("!formicants", "Affiche la boutique en ligne")
+    .addField("!lasius", "Affiche les Lasius en vente")
+    .addField("!crematogaster", "Affiche les Crematogaster en vente")
+    .addField("!camponotus", "Affiche les Camponotus en vente")
+    .addField("!messor", "Affiche les Messor en vente")
+    .addField("!solenopsis", "Affiche les Solenopsis en vente")
+    .addField("!pheidole", "Affiche les Pheidole en vente")
+    .addField("!bonjour", "Pour saluer AntBot")
+    .setFooter("www.formicants.com")
+    message.channel.sendMessage(help_embed);
+  }
+});
 
 
 bot.login(process.env.TOKEN);
