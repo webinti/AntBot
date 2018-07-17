@@ -21,6 +21,12 @@ bot.on('message', function (message) {
 })
 
 bot.on('message', function (message) {
+  if (message.content === '!popo') {
+    message.reply("J'ailes les po...... ?")
+  }
+})
+
+bot.on('message', function (message) {
   if (message.content === '!formicants') {
     message.reply("https://formicants.com")
   }
