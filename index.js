@@ -22,7 +22,7 @@ bot.on('message', function (message) {
 
 bot.on('message', function (message) {
   if (message.content === '!popo') {
-    message.reply("J'aime les po...... ?")
+    message.reply("Les popos c'est rigolo! J'aime les po...... ?")
   }
 })
 
