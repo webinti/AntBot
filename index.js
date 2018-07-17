@@ -21,6 +21,12 @@ bot.on('message', function (message) {
 })
 
 bot.on('message', function (message) {
+  if (message.content === '!promo') {
+    message.reply("Tiens, 10% de réduction sur le site Formicants avec le code : 1stOrder")
+  }
+})
+
+bot.on('message', function (message) {
   if (message.content === '!popo') {
     message.reply("Les popos c'est rigolo! J'aime les po...... ?")
   }
