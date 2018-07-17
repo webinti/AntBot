@@ -27,6 +27,12 @@ bot.on('message', function (message) {
 })
 
 bot.on('message', function (message) {
+  if (message.content === '!pates') {
+    message.reply("Ici, il y a que bil_biloup qui aime les pâtes! OK ?")
+  }
+})
+
+bot.on('message', function (message) {
   if (message.content === '!formicants') {
     message.reply("https://formicants.com")
   }
