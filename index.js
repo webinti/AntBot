@@ -94,10 +94,10 @@ bot.on('message', function (message) {
     .addField("!solenopsis", "Affiche les Solenopsis en vente")
     .addField("!pheidole", "Affiche les Pheidole en vente")
     .addField("!bonjour", "Pour saluer AntBot")
+    .addField("!promo", "Une petite réduction sur ton prochain achat sur Formicants.com")
     .setFooter("www.formicants.com")
     message.channel.sendMessage(help_embed);
   }
 });
-
 
 bot.login(process.env.TOKEN);
