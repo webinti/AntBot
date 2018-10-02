@@ -22,7 +22,7 @@ bot.on('message', function (message) {
 
 bot.on('message', function (message) {
   if (message.content === '!promo') {
-    message.reply("Tiens, 10% de réduction sur le site Formicants avec le code : 1stOrder")
+    message.reply("Tiens, 10% de réduction sur le site Formicants.com avec le code : 1stOrder")
   }
 })
 
@@ -40,43 +40,43 @@ bot.on('message', function (message) {
 
 bot.on('message', function (message) {
   if (message.content === '!formicants') {
-    message.reply("https://formicants.com")
+    message.reply("https://grainesdegaia.fr/")
   }
 })
 
 bot.on('message', function (message) {
   if (message.content === '!crematogaster') {
-    message.reply('https://formicants.com/17-crematogaster')
+    message.reply('https://grainesdegaia.fr/categorie-produit/fourmis/fondation-et-colonies/')
   }
 })
 
 bot.on('message', function (message) {
   if (message.content === '!messor') {
-    message.reply('https://formicants.com/16-messor')
+    message.reply('https://grainesdegaia.fr/categorie-produit/fourmis/fondation-et-colonies/')
   }
 })
 
 bot.on('message', function (message) {
   if (message.content === '!camponotus') {
-    message.reply('https://formicants.com/18-camponotus')
+    message.reply('https://grainesdegaia.fr/categorie-produit/fourmis/fondation-et-colonies/')
   }
 })
 
 bot.on('message', function (message) {
   if (message.content === '!solenopsis') {
-    message.reply('https://formicants.com/19-solenopsis')
+    message.reply('https://grainesdegaia.fr/categorie-produit/fourmis/fondation-et-colonies/')
   }
 })
 
 bot.on('message', function (message) {
   if (message.content === '!lasius') {
-    message.reply('https://formicants.com/20-lasius')
+    message.reply('https://grainesdegaia.fr/categorie-produit/fourmis/fondation-et-colonies/')
   }
 })
 
 bot.on('message', function (message) {
   if (message.content === '!pheidole') {
-    message.reply('https://formicants.com/21-pheidole')
+    message.reply('https://grainesdegaia.fr/categorie-produit/fourmis/fondation-et-colonies/')
   }
 })
 
