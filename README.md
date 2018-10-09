@@ -1,2 +1,2 @@
 # AntBot
-A Discord bot
+Un bot spécialisé dans la Myrmécologie
