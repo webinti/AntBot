@@ -28,6 +28,14 @@ bot.on("message", function (message) {
 });
 
 bot.on("message", function (message) {
+  if (message.content === "!myrmeco") {
+    message.reply(
+      "Pour plus d'informations, n'hésite pas à visiter ces liens https://www.myrmecofourmis.com/guide-du-debutant-en-elevage-de-fourmis et ensuite ça https://www.myrmecofourmis.com/documentation"
+    );
+  }
+});
+
+bot.on("message", function (message) {
   if (message.content === "!promo") {
     message.reply(
       "Tiens, 10% de réduction sur le site Formicants.com avec le code : 1stOrder"
