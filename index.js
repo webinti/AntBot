@@ -4,7 +4,7 @@ const Discord = require("discord.js");
 const bot = new Discord.Client({ disableEveryone: true });
 
 bot.on("ready", async () => {
-  bot.user.setActivity("chercher des gynes");
+  bot.user.setActivity("chercher des gynes avec GDG");
 });
 
 bot.on("guildMemberAdd", (member) => {
